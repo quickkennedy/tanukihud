@@ -18,3 +18,8 @@ sv_unlockedchapters 99
 // Apply HUD settings
 cl_hud_minmode 0
 vgui_cache_res_files 0
+
+mat_motion_blur_enabled 1 			//afaik the only sure-fire way to keep refract masking on
+mat_motion_blur_strength 0 			//effectively disables motion blur, personal choice + motion blur gets masked and looks bad with refract masking
+
+mat_disable_bloom 1 				//disables bloom so refract masking doesn't create a dark rectangle over light materials
