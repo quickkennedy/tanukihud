@@ -83,9 +83,9 @@
 		"command"		"jointeam spectate"
 		"font"			"FontBold18"
 
-		"defaultFgColor_override"	"255 255 255 128"
+		"defaultFgColor_override"	"200 187 161 128"
 		"armedFgColor_override"		"White"
-		"depressedFgColor_override"	"255 255 255 128"
+		"depressedFgColor_override"	"200 187 161 128"
 		"selectedFgColor_override"	"White"
 	}
 
@@ -138,9 +138,9 @@
 		"command"		"jointeam spectatearena"
 		"font"			"FontBold18"
 
-		"defaultFgColor_override"	"255 255 255 128"
+		"defaultFgColor_override"	"200 187 161 128"
 		"armedFgColor_override"		"White"
-		"depressedFgColor_override"	"255 255 255 128"
+		"depressedFgColor_override"	"200 187 161 128"
 		"selectedFgColor_override"	"White"
 	}
 
@@ -192,7 +192,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fillcolor"		"255 255 255 200"
+		"fillcolor"		"200 187 161 200"
 	}
 
 	"TeamMenuAuto"

@@ -491,7 +491,7 @@
 		"allow_rot"		"1"
 		"paintbackground"		"1"
 		"paintbackgroundenabled" "1"
-		"bgcolor_override"		"255 255 255 0"
+		"bgcolor_override"		"200 187 161 0"
 
 		"model"
 		{
@@ -551,7 +551,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"panel_bgcolor" "TextColor"
-		"panel_bgcolor_mouseover" "255 255 255 255"
+		"panel_bgcolor_mouseover" "200 187 161 255"
 		"image_indent"			"0"
 		"PaintBackgroundType"	"2"
 
@@ -904,9 +904,9 @@
 
 			"paintborder"				"0"
 
-			"image_drawcolor"		"255 255 255 77"
-			"image_armedcolor"		"255 255 255 128"
-			"image_selectedcolor"	"255 255 255 255"
+			"image_drawcolor"		"200 187 161 77"
+			"image_armedcolor"		"200 187 161 128"
+			"image_selectedcolor"	"200 187 161 255"
 
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"

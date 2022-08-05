@@ -20,9 +20,9 @@
 		"log_font_medium"			"HudFontMediumSmallSecondary"
 		"log_font_large"			"HudFontMediumSecondary"
 
-		"chat_color_default"		"255 255 255 255"
+		"chat_color_default"		"200 187 161 255"
 		"chat_color_player_name"	"255 255 0 255"
-		"chat_color_chat_text"		"255 255 255 255"
+		"chat_color_chat_text"		"200 187 161 255"
 		"chat_color_party_event"	"Orange"
 
 		"collapsed_height"			"0"

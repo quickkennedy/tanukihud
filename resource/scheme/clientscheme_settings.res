@@ -151,7 +151,7 @@ Scheme
 		SectionedListPanel.SelectedTextColor	"Black"
 		SectionedListPanel.SelectedBgColor		"Red"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 32"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"200 187 161 32"
 
 		Slider.NobColor							"108 108 108 255"
 		Slider.TextColor						"127 140 127 255"
@@ -209,7 +209,7 @@ Scheme
 
 		// CHudMenu
 		"ItemColor"								"255 167 42 200"	// default 255 167 42 255
-		"MenuColor"								"255 255 255 255"
+		"MenuColor"								"200 187 161 255"
 		"MenuBoxBg"								"HudBlack"
 
 		// Weapon Selection Colors
@@ -220,7 +220,7 @@ Scheme
 		"SelectionSelectedBoxBg" 				"0 0 0 190"
 
 		// Hint Message Colors
-		"HintMessageFg"							"255 255 255 255"
+		"HintMessageFg"							"200 187 161 255"
 		"HintMessageBg"							"0 0 0 60"
 
 		"ProgressBarFg"							"255 30 13 255"

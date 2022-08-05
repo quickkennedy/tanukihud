@@ -503,7 +503,7 @@
 		"allow_rot"		"1"
 		"paintbackground" "1"
 		"paintbackgroundenabled" "1"
-		"bgcolor_override" "255 255 255 0"
+		"bgcolor_override" "200 187 161 0"
 
 		"model"
 		{
@@ -1255,8 +1255,8 @@
 
 			"paintborder"		"0"
 
-			"image_drawcolor"		"255 255 255 77"
-			"image_armedcolor"		"255 255 255 128"
+			"image_drawcolor"		"200 187 161 77"
+			"image_armedcolor"		"200 187 161 128"
 			"image_selectedcolor"	"White"
 
 			"stayselectedonclick"	"1"

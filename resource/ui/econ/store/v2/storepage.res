@@ -536,7 +536,7 @@
 			"paintbackground"	"0"
 			"paintborder"		"0"
 
-			"image_drawcolor"		"255 255 255 180"
+			"image_drawcolor"		"200 187 161 180"
 			"image_armedcolor"		"White"
 			"image_selectedcolor"	"White"
 

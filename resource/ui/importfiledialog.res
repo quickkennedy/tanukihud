@@ -2244,7 +2244,7 @@
 		"allow_manip"		"1"
 		"paintbackground" 	"1"
 		"paintbackgroundenabled"	"1"
-		"bgcolor_override" 			"255 255 255 0"
+		"bgcolor_override" 			"200 187 161 0"
 
 		"model"
 		{

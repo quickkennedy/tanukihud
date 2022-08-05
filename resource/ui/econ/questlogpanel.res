@@ -120,7 +120,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"bgcolor_override"	"255 255 255 252"
+			"bgcolor_override"	"200 187 161 252"
 			"proportionaltoparent"	"1"
 		}
 

@@ -269,7 +269,7 @@
 		"pinCorner"			"0"
 		"visible"			"0"
 		"enabled"			"0"
-		"fillcolor"			"255 255 255 7"
+		"fillcolor"			"200 187 161 7"
 	}
 
 	"BlueCount"

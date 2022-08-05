@@ -17,7 +17,7 @@ Scheme
 		"DarkGrey"					"27 27 27 255"
 		"DarkerGrey"				"22 22 22 255"
 		"Brown"						"49 44 41 255"
-		"ShadowBlack"				"7 7 7 255"
+		"ShadowBlack"				"37 35 35 255"
 		"NeonRed"					"200 10 20 255"
 		"MenuShader"				"0 0 0 100"
 		"TextColor"					"117 107 94 255"
@@ -26,7 +26,7 @@ Scheme
 		//---------------------------------------------
 		// GAMEPLAY
 		//---------------------------------------------
-		"Overheal"					"0 170 127 255"
+		"Overheal"					"121 247 122 255"
 		"OverhealShadow"			"0 70 59 255"
 		"LowHealth"					"190 20 20 255"
 		"LowHealthShadow"			"90 20 20 255"
@@ -85,8 +85,8 @@ Scheme
 		"PartyMember6"							"255 133 255 255"
 
 		"White"									"220 220 220 255"
-		"RedSolid"								"192 28 0 255"
-		"BlueSolid"								"0 28 162 255"
+		"RedSolid"								"189 59 59 255"
+		"BlueSolid"								"91 122 140 255"
 		"TransparentYellow"						"251 235 202 140"
 		"GreenSolid"							"76 107 34 255"
 
@@ -96,11 +96,11 @@ Scheme
 		"TransparentLightBlack"					"0 0 0 90"
 		"FooterBGBlack"							"52 48 55 255"
 
-		"HUDBlueTeam"							"104 124 155 127"
-		"HUDRedTeam"							"180 92 77 127"
+		"HUDBlueTeam"							"91 122 140 127"
+		"HUDRedTeam"							"189 59 59 127"
 		"HUDSpectator"							"124 124 124 127"
-		"HUDBlueTeamSolid"						"104 124 155 255"
-		"HUDRedTeamSolid"						"180 92 77 255"
+		"HUDBlueTeamSolid"						"91 122 140 255"
+		"HUDRedTeamSolid"						"189 59 59 255"
 		"HUDDeathWarning"						"255 0 0 255"
 		"HudWhite"								"200 187 161 255"
 		"HudOffWhite"							"200 187 161 255"
@@ -116,7 +116,7 @@ Scheme
 
 		"HudPanelForeground"					"123 110 59 184"
 		"HudPanelBackground"					"123 110 59 184"
-		"HudPanelBorder"						"255 255 255 102"
+		"HudPanelBorder"						"200 187 161 102"
 
 		"HudProgressBarActive"					"240 207 78 255"
 		"HudProgressBarInActive"				"140 120 73 255"

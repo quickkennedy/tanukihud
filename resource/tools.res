@@ -415,9 +415,9 @@
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
 			"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 			
-			"defaultFgColor_override"	"255 255 255 255"
+			"defaultFgColor_override"	"200 187 161 255"
 			"armedFgColor_override"		"150 150 150 255"
-			"depressedFgColor_override"	"255 255 255 255"
+			"depressedFgColor_override"	"200 187 161 255"
 		}
 		
 		"DamageYellow"

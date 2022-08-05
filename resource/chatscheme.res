@@ -6,7 +6,7 @@ Scheme
 	Colors
 	{
 		// base colors
-		"White"				"255 255 255 255"
+		"White"				"200 187 161 255"
 		"OffWhite"			"216 216 216 255"
 		"DullWhite"			"142 142 142 255"
 		"Orange"			"156 82 33 255"
