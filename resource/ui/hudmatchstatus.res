@@ -271,15 +271,15 @@
 		"enabled"		"1"
 
 		"max_size"		"20"
-		"6v6_gap"		"1"
-		"12v12_gap"		"1"
+		"6v6_gap"		"0.5"
+		"12v12_gap"		"0.5"
 
 		"team1_grow_dir" 	"west"
-		"team1_base_x"		"c-45"
+		"team1_base_x"		"c-41"
 		"team1_max_expand"	"150" //"220"
 
 		"team2_grow_dir"	"east"
-		"team2_base_x"		"c45"
+		"team2_base_x"		"c41"
 		"team2_max_expand"	"150" //"220"
 
 		"playerpanels_kv"
