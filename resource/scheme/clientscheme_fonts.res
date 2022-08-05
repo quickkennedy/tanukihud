@@ -10,8 +10,41 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"50"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"FontBold35"
+		{
+			"1"
+			{
+				"name"			"Anton"
+				"tall"			"35"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"FontBold45"
+		{
+			"1"
+			{
+				"name"			"Anton"
+				"tall"			"45"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		"FontBold40"
+		{
+			"1"
+			{
+				"name"			"Anton"
+				"tall"			"40"
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
@@ -21,7 +54,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"37"
 				"weight"		"0"
 				"additive"		"0"
@@ -32,7 +65,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"22"
 				"weight"		"0"
 				"additive"		"0"
@@ -43,7 +76,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"20"
 				"weight"		"0"
 				"additive"		"0"
@@ -55,7 +88,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"20"
 				"weight"		"0"
 				"additive"		"0"
@@ -66,7 +99,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"18"
 				"weight"		"0"
 				"additive"		"0"
@@ -77,7 +110,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"16"
 				"weight"		"0"
 				"additive"		"0"
@@ -88,7 +121,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"14"
 				"weight"		"0"
 				"additive"		"0"
@@ -99,7 +132,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"12"
 				"weight"		"0"
 				"additive"		"0"
@@ -110,7 +143,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"10"
 				"weight"		"0"
 				"additive"		"0"
@@ -121,7 +154,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"9"
 				"weight"		"0"
 				"additive"		"0"
@@ -422,7 +455,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"14"
 				"weight"		"900"
 				"antialias"		"1"
@@ -610,7 +643,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -621,7 +654,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -897,7 +930,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"16"
 				"weight"		"500"
 				"additive"		"0"
@@ -1075,7 +1108,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"18"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1086,7 +1119,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"18"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1098,7 +1131,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"18"
 				"antialias" 	"1"
 				"weight"		"900"
@@ -1109,7 +1142,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"18"
 				"antialias" 	"1"
 				"weight"		"900"
@@ -1121,7 +1154,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"15"
 				"antialias" 	"1"
 				"weight"		"900"
@@ -1410,7 +1443,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"36"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1912,7 +1945,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"8"
 				"weight"		"500"
 				"additive"		"0"
@@ -1923,7 +1956,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
@@ -1934,7 +1967,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -1945,7 +1978,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"
+				"name"			"Anton"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -2711,20 +2744,8 @@ Scheme
 		}
 		"6"
 		{
-			"font" "resource/TF2Build.ttf"
-			"name" "TF2 Build"
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"turkish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
+			"font" "resource/fonts/Anton-Regular.ttf"
+			"name" "Anton"
 		}
 		"7"
 		{
