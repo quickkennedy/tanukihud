@@ -12,7 +12,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"HealthDeathWarning"		"1.0"
-		"HealthBonusPosAdj"			"342" //"342" //150/80*182 = 341.25
+		"HealthBonusPosAdj"			"423" //"342" //150/80*182 = 341.25
 		"HealthDeathWarningColor"	"Blank"
 	}
 	
@@ -64,7 +64,7 @@
 		"ControlName"				"EditablePanel"
 		"fieldName"					"HealthBarBG"
 		"xpos"						"2"
-		"ypos"						"90"
+		"ypos"						"40"
 		"zpos"						"5"
 		"wide"						"f0"
 		"tall"						"40"
@@ -136,7 +136,7 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"PlayerStatusHealthValue"
-		"xpos"						"40"
+		"xpos"						"-20"
 		"ypos"						"0"
 		"zpos"						"152"
 		"wide"						"250"
@@ -144,7 +144,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"labelText"					"%Health%"
-		"textAlignment"				"center"
+		"textAlignment"				"east"
 		"font"						"FontBold40"
 		"fgcolor"					"HudOffwhite"
 		"bgcolor_override"			"Blank"
@@ -152,6 +152,41 @@
 		"pin_to_sibling"			"HealthAnchor"
 		"pin_corner_to_sibling"		"4"
 		"pin_to_sibling_corner"		"4"
+	}
+	
+	"HealthValueBar"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"HealthValueBar"
+		//"font"				"FontBold22"
+		"bgcolor_override"			"HudWhite"
+		"xpos"				"150"
+		"ypos"				"3"
+		"zpos"				"151"
+		"wide"				"1"
+		"tall"				"24"
+		"visible"			"1"
+		"enabled"			"1"
+		"textAlignment"		"west"
+		"labelText"			"%AmmoInReserve%"
+		"pin_to_sibling"	"AmmoInClip"
+	}
+	
+	"PlayerStatusMaxHealthValue2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusMaxHealthValue2"
+		"xpos"						"155"
+		"ypos"						"0"
+		"zpos"						"152"
+		"wide"						"20"
+		"tall"						"30"
+		"visible"					"1"
+		"enabled"					"1"
+		"labelText"					"%MaxHealth%"
+		"textAlignment"				"west"	
+		"font"						"FontBold22"
+		"fgcolor"					"HudWhite"
 	}
 
 	"PlayerStatusHealthValueShadow"
@@ -814,12 +849,6 @@
 		"pin_to_sibling_corner"		"4"
 	}
 
-	"PlayerStatusMaxHealthValue"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"		"9999"
-	}
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"		"ImagePanel"
