@@ -60,7 +60,7 @@
 		"font"				"FontBold37"
 		"visible"			"1"
 		"enabled"			"1"
-		"fgcolor_override"	"220 220 220 255"
+		"fgcolor_override"	"200 187 161 255"
 	}
 	
 	"BlueBorder"

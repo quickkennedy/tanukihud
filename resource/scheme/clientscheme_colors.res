@@ -84,7 +84,7 @@ Scheme
 		"PartyMember5"							"255 118 108 255"
 		"PartyMember6"							"255 133 255 255"
 
-		"White"									"220 220 220 255"
+		"White"									"200 187 161 255"
 		"RedSolid"								"189 59 59 255"
 		"BlueSolid"								"91 122 140 255"
 		"TransparentYellow"						"251 235 202 140"
