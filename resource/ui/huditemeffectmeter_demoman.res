@@ -71,6 +71,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"FontBold22"
+		"fgcolor_override"		"HudWhite"
 	}
 
 	"ItemEffectMeterCountShadow"
@@ -109,7 +110,7 @@
 		"labelText"				"K"
 		"textAlignment"			"west"
 		"font"					"CustomIcons"
-		"fgcolor_override"		"White"
+		"fgcolor_override"		"HudWhite"
 	}
 
 	"StreakIconShadow"
