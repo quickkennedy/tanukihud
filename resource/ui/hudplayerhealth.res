@@ -55,7 +55,7 @@
 		"tall"						"0"
 		"visible"					"0"
 		"enabled"					"1"
-		"image"						"replay/thumbnails/panels/blank"
+		"image"						"replay/thumbnails/blank"
 		"scaleImage"				"1"
 	}
 
@@ -99,12 +99,12 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"HealthBarOverheal"
-		"xpos"						"-331"
+		"xpos"						"414" //"-331*1.25"
 		"ypos"						"30"
 		"zpos"						"7"
 		"wide"						"250"
 		"tall"						"4"
-		"visible"					"0"
+		"visible"					"1"
 		"enabled"					"1"
 		"bgcolor_override"			"Blue"
 
@@ -154,11 +154,29 @@
 		"pin_to_sibling_corner"		"4"
 	}
 	
+	"PlayerStatusHealthValueShadow"
+	{
+		"ControlName"				"CExLabel"
+		"fieldName"					"PlayerStatusHealthValueShadow"
+		"xpos"						"-2"
+		"ypos"						"-2"
+		"zpos"						"152"
+		"wide"						"250"
+		"tall"						"30"
+		"visible"					"1"
+		"enabled"					"1"
+		"labelText"					"%Health%"
+		"textAlignment"				"east"
+		"font"						"FontBold40"
+		"fgcolor"					"ShadowBlack"
+
+		"pin_to_sibling"			"PlayerStatusHealthValue"
+	}
+	
 	"HealthValueBar"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HealthValueBar"
-		//"font"				"FontBold22"
 		"bgcolor_override"			"HudWhite"
 		"xpos"				"150"
 		"ypos"				"3"
@@ -172,14 +190,31 @@
 		"pin_to_sibling"	"AmmoInClip"
 	}
 	
-	"PlayerStatusMaxHealthValue2"
+	"HealthValueBarShadow"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"HealthValueBarShadow"
+		"bgcolor"			"HudShadow"
+		"xpos"				"-2"
+		"ypos"				"-2"
+		"zpos"				"151"
+		"wide"				"3"
+		"tall"				"24"
+		"visible"			"1"
+		"enabled"			"1"
+		"textAlignment"		"west"
+		"labelText"			"%AmmoInReserve%"
+		"pin_to_sibling"	"HealthValueBar"
+	}
+	
+	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusMaxHealthValue2"
+		"fieldName"		"PlayerStatusMaxHealthValue"
 		"xpos"						"155"
 		"ypos"						"0"
 		"zpos"						"152"
-		"wide"						"20"
+		"wide"						"40"
 		"tall"						"30"
 		"visible"					"1"
 		"enabled"					"1"
@@ -187,25 +222,6 @@
 		"textAlignment"				"west"	
 		"font"						"FontBold22"
 		"fgcolor"					"HudWhite"
-	}
-
-	"PlayerStatusHealthValueShadow"
-	{
-		"ControlName"				"CExLabel"
-		"fieldName"					"PlayerStatusHealthValueShadow"
-		"xpos"						"-1"
-		"ypos"						"-1"
-		"zpos"						"4"
-		"wide"						"250"
-		"tall"						"30"
-		"visible"					"0"
-		"enabled"					"1"
-		"labelText"					"%Health%"
-		"textAlignment"				"center"
-		"font"						"Size 44"
-		"fgcolor"					"Shadow"
-
-		"pin_to_sibling"			"PlayerStatusHealthValue"
 	}
 
 	"PlayerStatusHealthImage"
