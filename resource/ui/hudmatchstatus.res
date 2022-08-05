@@ -144,7 +144,7 @@
 	{
 		"fieldName"		"RoundCounter"
 		"xpos"			"cs-0.5"
-		"ypos"			"-2"
+		"ypos"			"5-2"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"100"
@@ -211,7 +211,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-40"
-		"ypos"				"0"
+		"ypos"				"5"
 		"zpos"				"2"
 		"wide"				"90"
 		"tall"				"80"
@@ -263,7 +263,7 @@
 		"ControlName"	"CTFTeamStatus"
 		"fieldName"		"TeamStatus"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"5"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"75"
@@ -275,11 +275,11 @@
 		"12v12_gap"		"0.5"
 
 		"team1_grow_dir" 	"west"
-		"team1_base_x"		"c-41"
+		"team1_base_x"		"c-40"
 		"team1_max_expand"	"150" //"220"
 
 		"team2_grow_dir"	"east"
-		"team2_base_x"		"c41"
+		"team2_base_x"		"c40"
 		"team2_max_expand"	"150" //"220"
 
 		"playerpanels_kv"
@@ -383,7 +383,7 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"bgcolor_override"		"0 0 0 0"
-				"fgcolor_override"		"255 255 255 160"
+				"fgcolor_override"		"200 187 161 160"
 				"proportionaltoparent"	"1"
 			}
 			"HealthIcon"
