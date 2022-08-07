@@ -6,7 +6,7 @@
 		"fieldName"					"HudPlayerHealth"
 		"xpos"						"25"
 		"ypos"						"r90"
-		"zpos"						"0"
+		"zpos"						"150"
 		"wide"						"188" //"150" //"80"
 		"tall"						"90" //"113"
 		"visible"					"1"
@@ -190,15 +190,15 @@
 		"pin_to_sibling"	"AmmoInClip"
 	}
 	
-	"HealthValueBarShadow"
+	"HealthValueBar2"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"			"HealthValueBarShadow"
-		"bgcolor"			"HudShadow"
-		"xpos"				"-2"
-		"ypos"				"-2"
+		"fieldName"			"HealthValueBar2"
+		"bgcolor_override"			"ShadowBlack"
+		"xpos"				"-1"
+		"ypos"				"-1"
 		"zpos"				"151"
-		"wide"				"3"
+		"wide"				"1"
 		"tall"				"24"
 		"visible"			"1"
 		"enabled"			"1"
@@ -222,6 +222,24 @@
 		"textAlignment"				"west"	
 		"font"						"FontBold22"
 		"fgcolor"					"HudWhite"
+	}
+	
+	"PlayerStatusMaxHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusMaxHealthValueShdaow"
+		"xpos"						"-1"
+		"ypos"						"-1"
+		"zpos"						"152"
+		"wide"						"40"
+		"tall"						"30"
+		"visible"					"1"
+		"enabled"					"1"
+		"labelText"					"%MaxHealth%"
+		"textAlignment"				"west"	
+		"font"						"FontBold22"
+		"fgcolor"					"ShadowBlack"
+		"pin_to_sibling"		"PlayerStatusMaxHealthValue"
 	}
 
 	"PlayerStatusHealthImage"

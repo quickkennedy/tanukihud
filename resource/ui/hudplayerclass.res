@@ -13,21 +13,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
-	"HealthBarOutline"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HealthBarOutline"
-		"xpos"			"21"
-		"ypos"			"r75" //r60
-		"zpos"			"150"
-		"wide"			"200" //"160"
-		"tall"			"93" //"74"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/healthbaroutline"
-		"scaleImage"	"1"	
-	}
 
 	"PlayerStatusClassImage"
 	{
@@ -35,7 +20,7 @@
 		"fieldName"		"PlayerStatusClassImage"
 		"xpos"			"50"
 		"ypos"			"rs1-45"
-		"zpos"			"2"
+		"zpos"			"-9999"
 		"wide"			"50"
 		"tall"			"50"
 		"visible"		"1"

@@ -44,6 +44,21 @@
 	}
 	//--------------------------------------------------------------
 
+	"HealthBarOutline"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBarOutline"
+		"xpos"			"21"
+		"ypos"			"r84" //r60
+		"zpos"			"159"
+		"wide"			"200" //"160"
+		"tall"			"93" //"74"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/hp/healthbaroutline"
+		"scaleImage"	"1"	
+	}
+
 	"HudPlayerStatus"
 	{
 		"fieldName"			"HudPlayerStatus"

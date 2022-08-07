@@ -50,15 +50,11 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"random"
-		"xpos"				"c250"
-		"xpos_lodef"				"c217"
-		"xpos_hidef"				"c238"
-		"ypos"				"-5"
-		"ypos_lodef"				"9"
-		"ypos_hidef"				"0"
-		"zpos"				"6"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"6 "
 		"wide"				"50"
-		"tall"				"100"
+		"tall"				"50"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -71,8 +67,78 @@
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
 		
+		"pin_to_sibling"	"AmmoBar"
+		"pin_corner_to_sibling" "PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"
+		
 		"image_default"		"class_sel_sm_random_inactive"
 		"image_armed"		"class_sel_sm_random_inactive"
+		
+		"fgcolor"			"TanDark"
+		"defaultFgColor_override" "TanDark"
+		"armedFgColor_override" "TanDark"
+		"depressedFgColor_override" "TanDark"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
+		
+		"paintbackground"	"0"
+		
+		"image_drawcolor"		"200 187 161 255"
+		"image_armedcolor"		"200 187 161 255"
+		"image_selectedcolor"	"200 187 161 255"
+		
+		"stayselectedonclick"	"1"
+		"selectonhover"			"1"
+		"keyboardinputenabled"	"0"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"-25"
+			"zpos"			"7"
+			"wide"			"50"
+			"tall"			"100"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"class_sel_sm_random_inactive"
+			"scaleImage"	"1"
+		}				
+	}
+		
+	"backpack"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"backpack"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"6 "
+		"wide"				"50"
+		"tall"				"50"
+		"autoResize"		"0"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			""
+		"textAlignment"		"south-west"
+		"Command"			"select 12"
+		"Default"			"1"
+		"font"				"MenuKeys"
+		"scaleImage"		"1"
+		
+		"pin_to_sibling"	"AmmoBar"
+		"pin_corner_to_sibling" "PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		
+		//"image_default"		"class_sel_sm_random_inactive"
+		//"image_armed"		"class_sel_sm_random_inactive"
+		
+		"image_armed"		"..\hud\backpack_01"
+		"image_default"		"..\hud\backpack_01_grey"
 		
 		"fgcolor"			"TanDark"
 		"defaultFgColor_override" "TanDark"
@@ -101,14 +167,14 @@
 			"ypos"			"0"
 			"zpos"			"7"
 			"wide"			"50"
-			"tall"			"100"
+			"tall"			"50"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"class_sel_sm_random_inactive"
 			"scaleImage"	"1"
 		}				
 	}
-		
+	
 	"Offense"
 	{
 		"ControlName"	"CExLabel"
@@ -707,8 +773,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"rs2"
-		"ypos"			"s2"
+		"xpos"			"rs1-30"
+		"ypos"			"s1"
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"25"
@@ -727,20 +793,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"
-		"xpos"			"s2"
-		"ypos"			"s2"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#EditLoadout"
-		"textAlignment"	"center"
-		"Command"		"openloadout"
-		"font"			"HudFontSmallBold"
+		"xpos"			"99999"
 	}
 
 	"ResetButton" [$WIN32] 
@@ -943,8 +996,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage0"
-		"xpos"			"c20-440"
-		"ypos"			"s-0.25"
+		"xpos"			"c20-415"
+		"ypos"			"s-0.25+20"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -958,8 +1011,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage1"
-		"xpos"			"c45-440"
-		"ypos"			"s-0.25"
+		"xpos"			"c45-415"
+		"ypos"			"s-0.25+20"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -973,8 +1026,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage2"
-		"xpos"			"c70-440"
-		"ypos"			"s-0.25"
+		"xpos"			"c70-415"
+		"ypos"			"s-0.25+20"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -988,8 +1041,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage3"
-		"xpos"			"c95-440"
-		"ypos"			"s-0.25"
+		"xpos"			"c95-415"
+		"ypos"			"s-0.25+20"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1003,8 +1056,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage4"
-		"xpos"			"c120-440"
-		"ypos"			"s-0.25"
+		"xpos"			"c120-415"
+		"ypos"			"s-0.25+20"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1018,8 +1071,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage5"
-		"xpos"			"c145-440"
-		"ypos"			"s-0.25"
+		"xpos"			"c145-415"
+		"ypos"			"s-0.25+20"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1033,8 +1086,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage6"
-		"xpos"			"c170-440"
-		"ypos"			"s-0.25"
+		"xpos"			"c170-415"
+		"ypos"			"s-0.25+20"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1048,8 +1101,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage7"
-		"xpos"			"c195-440"
-		"ypos"			"s-0.25"
+		"xpos"			"c195-415"
+		"ypos"			"s-0.25+20"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1063,8 +1116,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage8"
-		"xpos"			"c220-440"
-		"ypos"			"s-0.25"
+		"xpos"			"c220-415"
+		"ypos"			"s-0.25+20"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1078,8 +1131,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage9"
-		"xpos"			"c245-440"
-		"ypos"			"s-0.25"
+		"xpos"			"c245-415"
+		"ypos"			"s-0.25+20"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1093,8 +1146,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"countImage10"
-		"xpos"			"c270-440"
-		"ypos"			"s-0.25"
+		"xpos"			"c270-415"
+		"ypos"			"s-0.25+20"
 		"zpos"			"9"
 		"wide"			"30"
 		"tall"			"60"
@@ -1467,7 +1520,7 @@
 	{
 		"ControlName"	"CTFClassTipsPanel"
 		"fieldName"		"ClassTipsPanel"
-		"xpos"			"rs1.3"
+		"xpos"			"rs1-30"
 		"ypos"			"c-84"
 		"zpos"			"7"
 		"wide"			"235"
