@@ -19,7 +19,7 @@
 		"fieldName"			"ItemEffectMeterLabel"
 		"xpos"				"0"
 		"ypos"				"0"
-		"zpos"				"3"
+		"zpos"				"4"
 		"wide"				"124"
 		"tall"				"12"
 		"autoResize"		"0"
@@ -31,6 +31,21 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"font"				"FontBold10"
+	}
+	
+	"ItemEffectMeterRefract"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"ItemEffectMeterRefract"
+		"xpos"				"2"
+		"ypos"				"2"
+		"zpos"				"5"
+		"wide"				"120"
+		"tall"				"8"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/bars/bar_refract"
+		"scaleimage"		"1"
 	}
 
 	"ItemEffectMeter"
