@@ -17,7 +17,32 @@
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"255 255 255 255"
+		"bgcolor_override"	"75 68 58 255"
+	}
+	
+	"ItemEffectMeterBg"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"ItemEffectMeterBg"
+		"font"				"Default"
+		"xpos"				"2"
+		"ypos"				"2"
+		"zpos"				"2"
+		"wide"				"124"
+		"tall"				"12"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"textAlignment"		"center"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		
+		"pin_to_sibling"	"ChargeMeter"
+		
+		"bgcolor_override"	"0 0 0 255"
+		"PaintBackgroundType"	"2"
 	}
 
 	"ItemEffectMeterLabel"

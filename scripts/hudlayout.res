@@ -207,18 +207,6 @@
 		"NumberFont" 			"HudSelectionText"
 	}
 
-	"CHudAccountPanel"
-	{
-		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c-50"
-		"ypos"					"c87"
-		"wide"					"100"
-		"tall"  				"100"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
-	}
-
 	"CHealthAccountPanel"
 	{
 		"fieldName"				"CHealthAccountPanel"
@@ -314,48 +302,36 @@
 
 	}
 
-	"BuildingStatusAnchor"
+	BuildingStatus_Spy
 	{
-		"fieldName"				"BuildingStatusAnchor"
-		"ControlName"			"EditablePanel"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"c-130"
-		"wide"					"640"
-		"tall"					"480"
-	}
-
-	"BuildingStatus_Spy"
-	{
-		"fieldName" 			"BuildingStatus_Spy"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"160"
-		"tall"					"480"
+		"fieldName" "BuildingStatus_Spy"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"0"	[$WIN32]
+		"ypos"		"0"	[$WIN32]
+		"xpos"		"32"	[$X360]
+		"ypos"		"16"	[$X360]		
+		"wide"		"640"
+		"tall"		"480"
+		
 		"PaintBackgroundType"	"2"
-
-		"pin_to_sibling"		"BuildingStatusAnchor"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 	}
-
-	"BuildingStatus_Engineer"
+	
+	BuildingStatus_Engineer
 	{
-		"fieldName" 			"BuildingStatus_Engineer"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"160"
-		"tall"					"480"
+		"fieldName" "BuildingStatus_Engineer"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"0"
+		"xpos_hidef"		"32"
+		"xpos_lodef"		"40"
+		"ypos"		"0"
+		"ypos_hidef"		"16"
+		"ypos_lodef"		"25"
+		"wide"		"640"
+		"tall"		"480"
+		
 		"PaintBackgroundType"	"2"
-
-		"pin_to_sibling"		"BuildingStatusAnchor"
-		"pin_to_sibling_corner"	"PIN_TOPLEFT"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 	}
 
 	"HudMannVsMachineStatus"
@@ -955,40 +931,37 @@
 
 	"HudMenuEngyBuild"
 	{
-		"fieldName" 		"HudMenuEngyBuild"
-		"visible" 			"1"
-		"enabled" 			"1"
-		"xpos"				"c90"
-		"ypos"				"c63"
-		"zpos"				"14"
-		"wide"				"125"
-		"tall"				"f0"
+		"fieldName" 	"HudMenuEngyBuild"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-225"
+		"ypos"			"c-55"
+		"wide"			"450"
+		"tall"			"195"
 		"PaintBackgroundType"	"0"
 	}
 
 	"HudMenuEngyDestroy"
 	{
-		"fieldName" 		"HudMenuEngyDestroy"
-		"visible" 			"1"
-		"enabled" 			"1"
-		"xpos"				"c90"
-		"ypos"				"c63"
-		"zpos"				"14"
-		"wide"				"125"
-		"tall"				"f0"
+		"fieldName" 	"HudMenuEngyDestroy"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-225"
+		"ypos"			"c-59"
+		"wide"			"450"
+		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
 
 	"HudEurekaEffectTeleportMenu"
 	{
-		"fieldName" 		"HudEurekaEffectTeleportMenu"
-		"visible" 			"1"
-		"enabled" 			"1"
-		"xpos"				"c-75"
-		"ypos"				"c155"
-		"zpos"				"14"
-		"wide"				"150"
-		"tall"				"88"
+		"fieldName" 	"HudEurekaEffectTeleportMenu"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-125"
+		"ypos"			"c-55"
+		"wide"			"250"
+		"tall"			"195"
 		"PaintBackgroundType"	"0"
 	}
 

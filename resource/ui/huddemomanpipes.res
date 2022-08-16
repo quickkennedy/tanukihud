@@ -69,13 +69,14 @@
 			"dulltext"			"0"
 			"brighttext"		"0"
 			"font"				"FontBold20"
+			"fgcolor"			"255 255 255 255"
 		}
 		"NumPipesLabelDropshadow"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"NumPipesLabelDropshadow"
-			"xpos"				"-2"
-			"ypos"				"-2"
+			"xpos"				"-1"
+			"ypos"				"-1"
 			"zpos"				"2"
 			"wide"				"24"
 			"tall"				"14"

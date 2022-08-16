@@ -78,8 +78,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
-		"xpos"					"-2"
-		"ypos"					"-2"
+		"xpos"					"-1"
+		"ypos"					"-1"
 		"zpos"					"2"
 		"wide"					"55"
 		"tall"					"20"
@@ -117,8 +117,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"StreakIconShadow"
-		"xpos"					"-2"
-		"ypos"					"-2"
+		"xpos"					"-1"
+		"ypos"					"-1"
 		"zpos"					"1"
 		"wide"					"20"
 		"tall"					"20"

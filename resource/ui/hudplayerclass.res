@@ -7,7 +7,7 @@
 		"fieldName"		"HudPlayerClass"
 		"xpos"			"0"
 		"ypos"			"-10"
-		"zpos"			"151"
+		"zpos"			"150"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"

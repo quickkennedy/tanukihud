@@ -5,10 +5,10 @@
 		"ControlName"				"EditablePanel"
 		"fieldName"					"HudPlayerHealth"
 		"xpos"						"25"
-		"ypos"						"r90"
+		"ypos"						"r120"
 		"zpos"						"150"
 		"wide"						"188" //"150" //"80"
-		"tall"						"90" //"113"
+		"tall"						"f0"//"90" //"113"
 		"visible"					"1"
 		"enabled"					"1"
 		"HealthDeathWarning"		"1.0"
@@ -21,7 +21,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HealthBarRefract"
 		"xpos"			"0"
-		"ypos"			"28" //"20"
+		"ypos"			"28+30" //"20"
 		"zpos"			"150"
 		"wide"			"199" //"150"
 		"tall"			"49"//"94" //"75"
@@ -64,7 +64,7 @@
 		"ControlName"				"EditablePanel"
 		"fieldName"					"HealthBarBG"
 		"xpos"						"2"
-		"ypos"						"40"
+		"ypos"						"40+31"
 		"zpos"						"5"
 		"wide"						"f0"
 		"tall"						"40"
@@ -82,7 +82,7 @@
 		"ControlName"				"EditablePanel"
 		"fieldName"					"HealthBar"
 		"xpos"						"0"
-		"ypos"						"50"
+		"ypos"						"50+30"
 		"zpos"						"6"
 		"wide"						"188" //"150" //"80"
 		"tall"						"40"
@@ -137,7 +137,7 @@
 		"ControlName"				"CExLabel"
 		"fieldName"					"PlayerStatusHealthValue"
 		"xpos"						"-20"
-		"ypos"						"0"
+		"ypos"						"-30"
 		"zpos"						"152"
 		"wide"						"250"
 		"tall"						"30"
@@ -179,7 +179,7 @@
 		"fieldName"			"HealthValueBar"
 		"bgcolor_override"			"HudWhite"
 		"xpos"				"150"
-		"ypos"				"3"
+		"ypos"				"3+30"
 		"zpos"				"151"
 		"wide"				"1"
 		"tall"				"24"
@@ -212,9 +212,9 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
 		"xpos"						"155"
-		"ypos"						"0"
+		"ypos"						"30"
 		"zpos"						"152"
-		"wide"						"40"
+		"wide"						"25"//staticon
 		"tall"						"30"
 		"visible"					"1"
 		"enabled"					"1"
@@ -231,7 +231,7 @@
 		"xpos"						"-1"
 		"ypos"						"-1"
 		"zpos"						"152"
-		"wide"						"40"
+		"wide"						"25"//staticon
 		"tall"						"30"
 		"visible"					"1"
 		"enabled"					"1"
@@ -254,11 +254,11 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"StatusIconsAnchor"
-		"xpos"						"rs1-195"
-		"ypos"						"-1"
+		"xpos"						"rs1-180"
+		"ypos"						"0"
 		"zpos"						"0"
 		"wide"						"p1.47"
-		"tall"						"34"
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 	}
@@ -269,9 +269,9 @@
 		"fieldName"					"PlayerStatusBleedImage"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -289,9 +289,9 @@
 		"fieldName"					"PlayerStatusHookBleedImage"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -309,9 +309,9 @@
 		"fieldName"					"PlayerStatusMilkImage"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -329,9 +329,9 @@
 		"fieldName"					"PlayerStatusGasImage"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -349,9 +349,9 @@
 		"fieldName"					"PlayerStatusMarkedForDeathImage"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"40"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -369,9 +369,9 @@
 		"fieldName"					"PlayerStatusMarkedForDeathSilentImage"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"40"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -389,9 +389,9 @@
 		"fieldName"					"PlayerStatus_MedicUberBulletResistImage"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -409,9 +409,9 @@
 		"fieldName"					"PlayerStatus_MedicUberBlastResistImage"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -429,9 +429,9 @@
 		"fieldName"					"PlayerStatus_MedicUberFireResistImage"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -449,9 +449,9 @@
 		"fieldName"					"PlayerStatus_MedicSmallBulletResistImage"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -469,9 +469,9 @@
 		"fieldName"					"PlayerStatus_MedicSmallBlastResistImage"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -489,9 +489,9 @@
 		"fieldName"					"PlayerStatus_MedicSmallFireResistImage"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -509,9 +509,9 @@
 		"fieldName"					"PlayerStatus_WheelOfDoom"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -529,9 +529,9 @@
 		"fieldName"					"PlayerStatus_SoldierOffenseBuff"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -549,9 +549,9 @@
 		"fieldName"					"PlayerStatus_SoldierDefenseBuff"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -569,9 +569,9 @@
 		"fieldName"					"PlayerStatus_SoldierHealOnHitBuff"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -589,9 +589,9 @@
 		"fieldName"					"PlayerStatus_SpyMarked"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"0"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -609,9 +609,9 @@
 		"fieldName"					"PlayerStatus_Parachute"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"0"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -629,9 +629,9 @@
 		"fieldName"					"PlayerStatus_RuneStrength"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -649,9 +649,9 @@
 		"fieldName"					"PlayerStatus_RuneHaste"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -669,9 +669,9 @@
 		"fieldName"					"PlayerStatus_RuneRegen"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -689,9 +689,9 @@
 		"fieldName"					"PlayerStatus_RuneResist"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -709,9 +709,9 @@
 		"fieldName"					"PlayerStatus_RuneVampire"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -729,9 +729,9 @@
 		"fieldName"					"PlayerStatus_RuneReflect"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -749,9 +749,9 @@
 		"fieldName"					"PlayerStatus_RunePrecision"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -769,9 +769,9 @@
 		"fieldName"					"PlayerStatus_RuneAgility"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -789,9 +789,9 @@
 		"fieldName"					"PlayerStatus_RuneKnockout"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -809,9 +809,9 @@
 		"fieldName"					"PlayerStatus_RuneKing"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -829,9 +829,9 @@
 		"fieldName"					"PlayerStatus_RunePlague"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -849,9 +849,9 @@
 		"fieldName"					"PlayerStatus_RuneSupernova"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
@@ -869,9 +869,9 @@
 		"fieldName"					"PlayerStatusSlowed"
 		"xpos"						"0"
 		"ypos"						"0"
-		"zpos"						"3"
-		"wide"						"38"
-		"tall"						"34"
+		"zpos"						"152"
+		"wide"						"25"//staticon
+		"tall"						"25"//staticon
 		"visible"					"1"
 		"enabled"					"1"
 		"scaleImage"				"1"
