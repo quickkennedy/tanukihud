@@ -270,40 +270,61 @@
 		"tall"					"38"
 	}
 
-	"CMainTargetID"
+	CMainTargetID
 	{
-		"fieldName" 			"CMainTargetID"
-		"visible" 				"0"
-		"enabled" 				"1"
-		"xpos"					"c-126"
-		"ypos"					"265"
-		"wide"					"200"
-		"tall"					"50"
-		"priority"				"40"
-	}
+		"fieldName" 	"CMainTargetID"
+		"visible" 	"0"
+		"enabled" 	"1"
+		"xpos"		"c-126"
+		"ypos"		"285"
+		"wide"	 	"252"
+		"tall"	 	"35"
+		"tall_minmode"	 	"28"
+		"priority"	"40"
+		"priority_lodef"	"5"
 
-	"CSpectatorTargetID"
-	{
-		"fieldName" 			"CSpectatorTargetID"
-		"visible" 				"0"
-		"enabled" 				"1"
-		"xpos"					"c-126"
-		"ypos"					"355"
-		"wide"					"200"
-		"tall"					"50"
-		"priority"				"40"
+		if_vr
+		{
+			"ypos"		"370"
+			"x_offset"	"20"
+		}
 	}
-
-	"CSecondaryTargetID"
+	
+	CSpectatorTargetID
 	{
-		"fieldName" 			"CSecondaryTargetID"
-		"visible" 				"0"
-		"enabled" 				"1"
-		"xpos"					"c-126"
-		"ypos"					"355"
-		"wide"					"200"
-		"tall"					"50"
-		"priority"				"35"
+		"fieldName" 	"CSpectatorTargetID"
+		"visible" 	"0"
+		"enabled" 	"1"
+		"xpos"		"c-126"
+		"ypos"		"250"
+		"wide"	 	"252"
+		"tall"	 	"35"
+		"tall_minmode"	 	"28"
+		"priority"	"40"
+		"priority_lodef" "35"
+		
+		"x_offset" "20"
+		"y_offset" "20"
+	}
+	
+	CSecondaryTargetID
+	{
+		"fieldName" 	"CSecondaryTargetID"
+		"visible" 	"0"
+		"enabled" 	"1"
+		"xpos"		"c-126"
+		"ypos"		"335"
+		"wide"	 	"252"
+		"tall"	 	"35"
+		"tall_minmode"	 	"28"
+		"priority"	"35"
+
+		if_vr
+		{
+			"ypos"		"330"
+			"x_offset"	"20"
+		}
+
 	}
 
 	"BuildingStatusAnchor"
@@ -1346,6 +1367,8 @@
 		"enabled" 		"1"
 		"xpos"			"c-235"
 		"ypos"			"c-52"
+		"ypos_hidef"	"c-42"
+		"ypos_lodef"	"c-42"
 		"wide"			"470"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
