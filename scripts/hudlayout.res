@@ -556,10 +556,11 @@
 	"HudMessage"
 	{
 		"fieldName" 		"HudMessage"
-		"visible" 			"1"
+		"visible" 			"0"
 		"enabled" 			"1"
 		"wide"				"f0"
-		"tall"				"480"
+		"ypos"				"cs-0.5"
+		"tall"				"0" //"480"
 	}
 
 	"HudMenu"
@@ -1340,15 +1341,14 @@
 
 	"HudMenuTauntSelection"
 	{
-		"fieldName" 		"HudMenuTauntSelection"
-		"visible" 			"1"
-		"enabled" 			"1"
-		"xpos"				"c-235"
-		"ypos"				"c155"
-		"zpos"				"10"
-		"wide"				"470"
-		"tall"				"88"
-		"PaintBackgroundType" "0"
+		"fieldName" 	"HudMenuTauntSelection"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-235"
+		"ypos"			"c-52"
+		"wide"			"470"
+		"tall"			"200"
+		"PaintBackgroundType"	"0"
 	}
 
 	"ItemAttributeTracker"
