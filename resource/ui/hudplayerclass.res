@@ -34,6 +34,22 @@
 		"fieldName"		"PlayerStatusSpyImage"
 		"xpos"			"9999"
 	}
+	
+	"HealthBarOutline"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBarOutline"
+		"xpos"			"21"
+		"ypos"			"r75" //r60
+		"zpos"			"150"
+		"wide"			"200" //"160"
+		"tall"			"93" //"74"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/hp/healthbaroutline"
+		"scaleImage"	"1"	
+	}
+	
 	"PlayerStatusSpyOutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"

@@ -44,21 +44,6 @@
 	}
 	//--------------------------------------------------------------
 
-	"HealthBarOutline"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HealthBarOutline"
-		"xpos"			"21"
-		"ypos"			"r84" //r60
-		"zpos"			"159"
-		"wide"			"200" //"160"
-		"tall"			"93" //"74"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay/thumbnails/hp/healthbaroutline"
-		"scaleImage"	"1"	
-	}
-
 	"HudPlayerStatus"
 	{
 		"fieldName"			"HudPlayerStatus"
@@ -852,41 +837,39 @@
 		"icon_space"		"2"
 	}
 
-	"WinPanel"
+	WinPanel
 	{
-		"fieldName"			"WinPanel"
-		"visible"			"1"
-		"enabled"			"1"
-		"xpos"				"c-100"
-		"ypos"				"r145"
-		"ypos_minmode"		"r40"
-		"zpos"				"10"
-		"wide"				"200"
-		"tall"				"152"
+		"fieldName"				"WinPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-150"
+		"ypos"					"215"
+		"wide"					"300"
+		"tall"					"300"
+		"zpos"					"4"
+		"proportionaltoparent"	"1"
 	}
 
-	"ArenaWinPanel"
+	ArenaWinPanel
 	{
-		"fieldName"			"ArenaWinPanel"
-		"visible"			"1"
-		"enabled"			"1"
-		"xpos"				"c-180"
-		"ypos"				"r125"
-		"ypos_minmode"		"r65"
-		"zpos"				"10"
-		"wide"				"360"
-		"tall"				"132"
+		"fieldName"				"ArenaWinPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-225"
+		"ypos"					"250"
+		"wide"					"450"
+		"tall"					"218"
 	}
-
-	"PVEWinPanel"
+	
+	PVEWinPanel
 	{
-		"fieldName"			"PVEWinPanel"
-		"visible"			"1"
-		"enabled"			"1"
-		"xpos"				"c-150"
-		"ypos"				"255"
-		"wide"				"300"
-		"tall"				"215"
+		"fieldName"				"PVEWinPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-150"
+		"ypos"					"255"
+		"wide"					"300"
+		"tall"					"215"
 	}
 
 	"StatPanel"
