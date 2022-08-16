@@ -2695,6 +2695,17 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"blocks"
+		{
+			"1"
+			{
+				"name"			"Blocks"
+				"tall"			"100"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"0"
+			}
+		}
 	}
 
 	BitmapFontFiles
@@ -2818,6 +2829,11 @@ Scheme
 			{
 				"range" "0x0000 0x007E"
 			}
+		}
+		"8"
+		{
+			"font" "resource/fonts/blocks.ttf"
+			"name" "TF2"
 		}
 	}
 }

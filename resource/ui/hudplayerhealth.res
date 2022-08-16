@@ -214,7 +214,7 @@
 		"xpos"						"155"
 		"ypos"						"30"
 		"zpos"						"152"
-		"wide"						"25"//staticon
+		"wide"						"f0"
 		"tall"						"30"
 		"visible"					"1"
 		"enabled"					"1"
@@ -231,7 +231,7 @@
 		"xpos"						"-1"
 		"ypos"						"-1"
 		"zpos"						"152"
-		"wide"						"25"//staticon
+		"wide"						"f0"
 		"tall"						"30"
 		"visible"					"1"
 		"enabled"					"1"

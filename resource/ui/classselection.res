@@ -125,7 +125,7 @@
 		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
-		"Command"			"select 12"
+		"Command"			"openloadout"
 		"Default"			"1"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
