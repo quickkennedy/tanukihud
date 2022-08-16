@@ -243,16 +243,18 @@
 		"PaintBackgroundType"	"2"
 	}
 
-	"DisguiseStatus"
+	DisguiseStatus
 	{
-		"fieldName" 			"DisguiseStatus"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"100"
-		"ypos"					"r38"
-		"zpos"					"10"
-		"wide"					"170"
-		"tall"					"38"
+		"fieldName" "DisguiseStatus"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"10"	[$WIN32]
+		"ypos"		"r70"	[$WIN32]
+		"xpos"		"50"	[$X360]
+		"ypos"		"330"	[$X360]
+		"wide"		"500"
+		"tall"		"200"
+		"TextFont"	"Default"	[$X360]
 	}
 
 	CMainTargetID
@@ -992,14 +994,16 @@
 
 	"HudMenuSpyDisguise"
 	{
-		"fieldName" 		"HudMenuSpyDisguise"
-		"visible" 			"1"
-		"enabled" 			"1"
-		"xpos"				"c-99"
-		"ypos"				"c120"
-		"zpos"				"10"
-		"wide"				"198"
-		"tall"				"88"
+		"fieldName" 	"HudMenuSpyDisguise"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-235"
+		"ypos"			"c-52"
+		"ypos_hidef"	"c-42"
+		"ypos_lodef"	"c-42"
+		"wide"			"470"
+		"tall"			"200"	[$WIN32]
+		"tall"			"180"	[$X360]
 		"PaintBackgroundType"	"0"
 	}
 
