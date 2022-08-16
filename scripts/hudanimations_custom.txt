@@ -1,7 +1,7 @@
 // Bonus Health Pulse
 event HudHealthBonusPulse
 {
-	Animate	HealthBG					BgColor		"Overheal"			Accel 0.0 0.0
+	Animate	HealthBarBG					BgColor		"Overheal"			Accel 0.0 0.0
 	
 //	Animate	PlayerHealthValue			FgColor		"Overheal"			Accel 0.0 0.0
 //	Animate	PlayerHealthShadow			FgColor		"OverhealShadow"	Accel 0.0 0.0
@@ -17,7 +17,7 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulse		0.0
 	StopEvent HudHealthBonusPulseLoop	0.0
 
-	Animate	HealthBG					BgColor		"Blank"				Accel 0.0 0.0
+	Animate	HealthBarBG					BgColor		"75 68 58 255"				Accel 0.0 0.0
 	
 //	Animate	PlayerHealthValue			FgColor		"HudWhite"			Accel 0.0 0.0
 //	Animate	PlayerHealthShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
@@ -30,7 +30,7 @@ event HudHealthBonusPulseStop
 // Low Health Pulse
 event HudHealthDyingPulse
 {
-	Animate	HealthBG					BgColor		"LowHealth"			Accel 0.0 0.0
+	//Animate	HealthBar					bgcolor		"LowHealth"			Accel 0.0 0.0
 	
 //	Animate	PlayerHealthValue			FgColor		"LowHealth"			Accel 0.0 0.0
 //	Animate	PlayerHealthShadow			FgColor		"LowHealthShadow"	Accel 0.0 0.0
@@ -46,7 +46,7 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulse 		0.0
 	StopEvent HudHealthDyingPulseLoop 	0.0
 
-	Animate	HealthBG					BgColor		"Blank"				Accel 0.0 0.0
+	//Animate	HealthBar					bgcolor	"HudOffwhite"			Accel 0.0 0.0
 	
 //	Animate	PlayerHealthValue			FgColor		"HudWhite"			Accel 0.0 0.0
 //	Animate	PlayerHealthShadow			FgColor		"ShadowBlack"		Accel 0.0 0.0
