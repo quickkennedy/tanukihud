@@ -32,21 +32,6 @@
 		"brighttext"		"0"
 		"font"				"FontBold10"
 	}
-	
-	"ItemEffectMeterRefract"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"ItemEffectMeterRefract"
-		"xpos"				"2"
-		"ypos"				"2"
-		"zpos"				"5"
-		"wide"				"120"
-		"tall"				"8"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"replay/thumbnails/bars/bar_refract"
-		"scaleimage"		"1"
-	}
 
 	"ItemEffectMeter"
 	{

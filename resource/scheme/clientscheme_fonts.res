@@ -61,6 +61,17 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"FontBold30"
+		{
+			"1"
+			{
+				"name"			"Anton"
+				"tall"			"30"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 		"FontBold22"
 		{
 			"1"
