@@ -14,9 +14,9 @@
 		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"DarkGrey"
-		"infocus_bgcolor_override"		"DarkGrey"
-		"outoffocus_bgcolor_override"	"DarkGrey"
+		"bgcolor_override"				"0 0 0 0" //"DarkGrey"
+		"infocus_bgcolor_override"		"0 0 0 0" //"DarkGrey"
+		"outoffocus_bgcolor_override"	"0 0 0 0" //"DarkGrey"
 
 		"item_xpos_offcenter_a"			"70"
 		"item_xpos_offcenter_b"			"230"
@@ -96,6 +96,21 @@
 			"armedFgColor_override"		"HoverWhite"
 			"depressedFgColor_override"	"White"
 		}
+	}
+	
+	"Sunset"
+	{
+		"ControlName"						"ImagePanel"
+		"fieldName"							"Sunset"
+		"xpos"								"0"
+		"ypos"								"-51"
+		"zpos"								"-1"
+		"wide"								"f0"
+		"tall"								"480"
+		"visible"							"1"
+		"enabled"							"1"
+		"image"								"../console/background_upward_widescreen"
+		"scaleimage"						"1"
 	}
 
 	"CaratLabel"
